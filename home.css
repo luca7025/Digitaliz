@@ -1,0 +1,212 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color:  black;
+    text-decoration: none;
+
+    
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 50px;
+    position: sticky;
+    top: 0px;
+    
+    
+}
+
+.navbar{
+    display: inline-block;
+    
+
+}
+
+.navlink{
+    color: whitesmoke;
+    font-weight: bolder;
+    padding: 16px;
+    border: 1px solid black;
+
+}
+.contact{
+    border: 1px solid red;
+    border-radius: 10px !important;
+    color: whitesmoke;
+    font-weight: bold;
+    width: 171px;
+}
+/* --------------------------------------------------------------------- */
+.banner{
+    position: relative;
+    background-repeat: no-repeat;
+}
+ 
+.banner img{
+    margin-left: -25px;
+    border: 5px solid red;
+    border-radius: 50px;
+}
+
+.banner_design1{
+    
+    background-color: red;
+    height: 500px;
+    width: 100%;
+    color: whitesmoke;
+
+}
+.banner_design2{
+    background-color: white;
+    height: 500px;
+    width: 100%;
+}
+.bnr_cont{
+    margin: 0;
+    font-size: 50px;
+}
+.it{
+    padding-right:120px ;
+}
+.compy{
+    padding-left: 120px;
+}
+
+.join{
+    display: flex;
+    padding: 15px;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 10px;
+    color: whitesmoke;
+    font-weight: bold;
+    width: 171px; 
+    position: absolute;
+    bottom: 180px;
+    left: 60px;
+    font-size: 18px;
+}
+
+
+/* ---------------------------------------------------------------------------- */
+.heading_1{
+    text-align: start;
+    text-decoration: underline whitesmoke;
+    padding-left: 125px;
+    color: red;
+    padding-bottom: 20px;
+    padding-top: 70px;
+    
+}
+
+.col{
+    color: whitesmoke;
+}
+
+.container img{
+    border-bottom: 6px solid whitesmoke;
+    border-right: 6px solid whitesmoke;
+
+    border-radius: 25px ;
+}
+
+.learn{
+    display: flex;
+    padding-left: 32.5px;
+    border: 1px solid red;
+    border-radius: 10px;
+    color: whitesmoke;
+    font-weight: bold;
+    width: 171px;
+}
+/* ----------------------------------------------------- */
+.service{
+    text-decoration: underline whitesmoke;
+    color: red;
+    padding-top: 70px;
+    text-align: center;
+    padding-bottom: 60px;
+    /* padding-left: 125px ; */
+
+}
+
+.col_icon1{
+    padding: 50px;
+    border-right:  2px solid red;
+    border-bottom: 2px solid red;
+}
+.col_icon2{
+    padding: 50px;
+    border-left:  2px solid red;
+    border-bottom: 2px solid red;
+}
+.col_icon3{
+    padding: 50px;
+    border-right:  2px solid red;
+    
+}
+.col_icon4{
+    padding: 50px;
+    border-left:  2px solid red;
+    
+}
+
+/* -------------------------------------------------------------------------- */
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 75px; 
+}
+.main_icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.icon{
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    padding: 10px;
+    margin-left: 100px;
+}
+
+
+/* --------------------------------------------------------------------------- */
+            /* A N I M A T I O N */
+/* ----------------------------------------------------------------------------------------- */
+@keyframes banner_design1{
+
+}
+
+
+
+
+
+
+
+
+
+
+
+/* ========================================================== */
+         /* H O V E R */
+/* ============================================================= */
+ .navlink:hover{
+    color: red;
+ }
+ .contact:hover{
+    color: black;
+    background-color: red;
+ }
+ .join:hover{
+    background-color: whitesmoke;
+    color: black;
+    border: none;
+ }
+ .learn:hover{
+    color: black;
+    background-color: red;
+ }
